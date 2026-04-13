@@ -7,7 +7,7 @@ import os
 st.set_page_config(page_title="2028 대입전형 아카이브", layout="wide")
 
 # --- 💡 [구글 시트 연동 설정] ---
-SHEET_ID = '1UvZhUkQNGp2PNMkqt17OCC1JBZ7K_5RDEe2yvrMfYBA' 
+SHEET_ID = '1UvZhUkQNGp2PNMkqt17OCC1JBZ7K_5RDEe2yvrMfYBA'
 # tqx=out:csv 뒤에 임의의 숫자를 붙여 구글이 캐시된 데이터를 주지 못하게 방해합니다.
 import time
 timestamp = int(time.time())
