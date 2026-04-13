@@ -8,7 +8,7 @@ st.set_page_config(page_title="2028 대입전형 아카이브", layout="wide")
 
 # --- 💡 [구글 시트 연동 섹션] ---
 # 선생님의 구글 시트 주소에서 ID 부분을 여기에 붙여넣으세요
-SHEET_ID = 'https://docs.google.com/spreadsheets/d/1UvZhUkQNGp2PNMkqtl7OCC1JBZ7K_5RDEe2yvrMfYBA/edit?gid=0#gid=0' 
+SHEET_ID = '1UvZhUkQNGp2PNMkqtl7OCC1JBZ7K_5RDEe2yvrMfYBA' 
 SHEET_URL = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv'
 
 @st.cache_data(ttl=600) # 10분마다 데이터를 새로고침합니다
